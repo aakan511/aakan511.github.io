@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Aaron Kantsevoy's Portfolio</title>
+    <script type="module" crossorigin src="/assets/index.a0f1f310.js"></script>
+    <link rel="stylesheet" href="/assets/index.0a9d40f3.css">
+  </head>
+  <body>
+  
+    <div id="app"></div>
+    <canvas id="bg" class="bg"></canvas>
+    <main>
+      <div class="topnav">
+        <a class="active" href="#top">Home</a>
+        <a href="#Kibo Robot Programming Challenge">Projects</a>
+        <a href="#languages">Hobbies</a>
+        <a href="#contact">Contact</a>
+        <a href="/assets/resume.pdf" download="resume.pdf">Resume</a>
+      </div> 
+      <h1>Hi, I'm Aaron!</h1>
+      <h2>I built this website to document my journey into the world of Computer Engineering! This ePortfolio focuses on my technical experiences but will gain professional experiences as well.
+      </h2>
+      <div class="descriptionLink"><div id="about" class="about projectDescription">
+        <h3>About Me</h3>
+        <h4 text-align="center">Aspiring Computer Engineer at Georgia Tech</h4>
+        <!-- <img src="/assets/portrait.jpg" class="portrait"> -->
+        <canvas id="3DScan" class="3DScan"></canvas>
+        <p>I am a college student interested in several areas of technology. Throughout highschool, I developed an interest in robotics
+          through the First Tech Challenge. I began as a 3D modeler and builder, but soon became interested in the software side of robotics.
+          This passion eventually evolved into my participation in the Kibo Robot Programming Challenge,
+          which allowed me to run code on the Astrobee free-flying robot on the ISS. 
+          
+          </p>
+          <p>Recently, I began exploring my interest in large data analysis and machine learning. Currently, I am working on a data mining application that combines data processing with artificial intelligence to 
+          efficiently and programmaticly find influencers that meet certain criteria such as minimum follower count, content language, and content category.
+          </p>  
+      <h4>Proficient Programming Languages:</h4>
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Arduino</li>
+      </ul>
+    </div> </div>
+    
+    <div id="career goals" class="projectDescription">
+      <h3>Academic & Career Goals</h3>
+      <h4>3 Year Goals:</h4>
+      <ul>
+        <li>Complete Bachelor's degree at Georgia Tech</li>
+        <li>Begin Master's degree</li>
+      </ul>
+      <h4>5 Year Goals:</h4>
+      <ul>
+        <li>Complete Master's degree</li>
+        <li>Enter the large data analysis and machine learning field</li>
+      </ul>
+      <p>I am really interested in pursuing a career in data analysis and machine learning because I get more enthralled in this field as I keep exploring it.
+        Recently, I have been working on collecting and analyzing large data sets surrounding influencers, which has been incredibly enjoyable. As I get deeper into this project,
+        time seems to fly and work really becomes play, which is something I have not experienced in a long time. In short, I find the problem-solving and critical thinking required in this work
+        incredibly intellectually stimulating. Moreover, I love the fact solutions to these problems have significant real-world impact such as in the field of artificial intelligence.
+      </p>
+      <h4>Summary:</h4>
+      <p>
+        Computer Engineering major with strong communication, presentation, and organizational skills. Strong independent learner with
+        experience in OpenCV, Java, path planning, orientation and other advanced coding tools that can substantially contribute to fast-
+        paced teams working on a wide variety of projects that involve large data processing and image recognition. Successful in competing
+        in international coding and robotics competitions and ran code on the Internation Space Station in October 2023. Seeking a software
+        engineering internship in the Summer of 2024.
+      </p>
+      <h4>Skills:</h4>
+      <ul>
+        <li>Professional communication</li>
+        <li>Public speaking for large and small audiences</li>
+        <li>Teamwork and interpersonal problem-solving</li>
+        <li>Full-stack development</li>
+        <li>Profiency in several programming languages</li>
+        <li>Automation</li>
+      </ul>
+      
+    </div>
+
+    <div id="Tractyl Manuform Keyboard" class="projectDescription">
+      <h3>Building the Tractyl Manuform - One of the Strangest Keyboards on the Internet</h3>
+      <img src="/assets/fullTractyl.21c43fc0.jpg">
+      <p>Above is a fully assembled image of the Tractyl Manuform 5x6. Building this keyboard took around 100 hours of work. First, the curved design of the keyboard deck made it impossible to use a PCB, so I had to hand-solder the diodes to the hot-swappable key-switch holders and then use wires to create the keyboard matrix. Next, I had to somehow make the two halves communicate. For this, I used serial communication over a generic audio cable because the data throughput is small. Programming the Raspberry Pi Pico controllers was a challenge. I decided to use Python instead of C because it would allow me to change the code on the microcontrollers rather than recompiling firmware every time I made a change. The hardest part of the code was figuring out how to get the trackball to communicate with my computer, which I eventually figured out. 
+      </p>
+      <h4>Motivations:</h4>
+      <ul>
+        <li>Create an ergonomic keyboard to preserve wrist and shoulder health</li>
+        <li>Integrate trackball in order to improve efficiency by not having to reach for a mouse</li>
+        <li>Improve typing speed by having thumb clusters</li>
+        <li>Build a "final" keyboard that would not be replaced for a long time</li>
+      </ul>
+      <img src="/assets/tractylWiring.3123470f.jpg">
+      <p> Here is a picture of the inside of one of the halves of my Tractyl Manuform.</p>
+      <h4>Technologies & STEM Concepts Used:</h4>
+      <ul>
+        <li>Circuit Design</li>
+        <li>Hand Soldering</li>
+        <li>Raspberry Pi</li>
+        <li>Python</li>
+        <li>3D Printing (modeling, slicing)</li>
+      </ul>
+    </div>
+    <div id="Kibo Robot Programming Challenge" class="projectDescription">
+      <h3>Kibo Robot Programming Challenge</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DBKVAojl0GQ?si=ne-cbd1W7IdJ5bZ6&amp;start=3451" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <h4>Technologies & STEM Concepts Used:</h4>
+      <ul>
+        <li>Java</li>
+        <li>OpenCV image recognition</li>
+        <li>Android Studio</li>
+        <li>Quaternions</li>
+        <li>Path planning</li>
+      </ul>
+      <p>In April 2023, I led Team Salcedo for our second year competing in the Kibo Robot Programming Challenge. This year we won the national round, which allowed us to send our code to the ISS and compete internationally as NASA's representative. Unfortunately, an unforseen bug caused our program to crash right before finishing. Learning from this mistake will propel us to greater sucess next year! As the captain, I was responsible for organizing meetings and setting deadlines for each part of the code and helping my teammates as best I could. We were also fortunate enough to be able to work with some college students from Sri Lanka, which was an amazing experience for me because I learned a lot about their culture and programming, and I made some friends on the other side of the globe! In the competition, the main goal is to use image recognition to find and patch air leaks on the ISS.
+       </p>
+       <img src="/assets/target3_test.c033d20f.png">
+       <p>The image above is an examble image from the simulator for the Astrobee robot that we programed during this challenge. 
+        Processing this image took several steps. First, we had to remove the distortion caused by the Astrobee's wide-angle lens.
+        Next, we scanned and found the location of the Aruco markers in order to calculate our distance from the target. The small white dot 
+        in the center of the target represents our robot's laser. Clearly, this run was successful beceause we hit the target in the bullseye!
+       </p>
+       <h4>Future Goals:</h4>
+       <p>This year, our team encountered an unforseen error on the ISS, causing us to take 10th place world wide. While this is an impressive result, I believe that we can do better, which is one of the major reasons
+        that I am working on founding a Kibo Robot Programming Challenge team at Georgia Tech. I am really excited to teach my fellow yellow jackets about programming free-floating robots in microgravity and share this amazing opportunity with them!
+       </p>
+      <h4>Team History:</h4>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/K0OQABZKGOA?start=834" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>
+        In 2022, Team Salcedo won 2nd place nationally in the third year of the Kibo Programming Challenge as team Salcedo. 
+        The first place team, Califorina Polytechnic State University's HSTAR, was able to watch their code run on one of the Astrobee robots in the International Space Station.
+      
+      </p>
+      </div>
+      <div id="Website Design" class="projectDescription">
+        <h3>My journey to building a (mostly) good-looking website</h3>
+        <img src="/assets/early-website.06e02ece.png">
+        <h4>Technologies & STEM Concepts Used:</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>VSCode</li>
+        </ul>
+        <p>Recently, I decided to undertake an interesting project in computer science, which would challenge me to learn new programming languages (HTML, CSS, and JavaScript). Since beginning this journey, I not only learned about coding a website, but also about network frameworks and how websites actually work.  </p>
+        <p>The most interesting feature of this website (for me) is the background. If you scroll up and down, you can see that a set of stars move in the background. If you refresh the website, you can notice that the stars actually move location. The stars in the background are 3D rendered using JavaScript and are placed at random positions every time the website is loaded.</p>
+        <p>This project has been really intersting to me because it lies in the intersection of art and science since it involves both design and coding.
+          One thing I learned in this project is that more features is not always better. In a previous version of this site, I had code that changed the color of each information box when the user hovered over it.
+          I initially thought this was a novel addition that showed my familiarity with HTML and CSS, but after a large number of users told me that this color change was distracting and unappealing,
+          I decided to remove this feature. 
+        </p>
+        <h4>Future Improvements:</h4>
+        <p>Currently, I am working on making this site look better on vertical displays, especially phones.</p>
+      </div>
+      <div id="greenhouse project" class="projectDescription">
+        <h3>The Geodome</h3>
+        <img src="/assets/greenhouseLights.6ab37622.png">
+        <img src="/assets/greenhouseTomatoesBig.dda12bd0.jpeg" width="60%">
+        <h4>Technologies & STEM Concepts Used:</h4>
+        <ul>
+          <li>Aquaponics</li>
+          <li>Arduino automation</li>
+          <li>Fusion 360</li>
+          <li>3D printing</li>
+        </ul>
+        <p>In this project, I co-lead a team of high-schoolers to design an aquaponics system, where fish waste is cycled through rock-based grow beds, resulting in a closed loop system that not only reduces water consumption by 95% compared to traditional agriculture, but also eliminates the need for soil. We also get to give back to the community through our partnership with a local food pantry, where we donate our harvests.</p>
+      </div>
+      <div id="3D Printer Modifying" class="projectDescription">
+        <h3>My 3D Printing Journey</h3>
+        <img src="/assets/cr10s4.493fa03d.jpeg">
+        <p>Above is a picture of the latest iteration of my CR10S4's hotend and extruder. This new design moves the extruder(motor on top) very close to the hotend, which not only allows faster printing but also gives me the ability to print flexible materials such as TPU. The mounting mechanisms are based on another design on Thingiverse.</p>
+        <img src="/assets/sidewinder.3134b2b5.jpeg">
+        <p> Here is a picture of my Evnovo Sidewinder X1. The white plastic piece on the hotend is a new fan mount that cools the molten plastic that comes out of the hotend faster, which allows quicker prints. Also, I replaced the mainboard of this system and reprogrammed it to use Klipper, which connects the printer to the internet and increases print speed and quality, while reducing noise. The pieces of styrofoam under the printer serve to dampen vibrations, which reduces the printer's noise.</p>
+        <h4>Technologies & STEM Concepts Used:</h4>
+        <ul>
+          <li>Arduino IDE</li>
+          <li>C++</li>
+          <li>Raspberry Pi</li>
+          <li>Soldering</li>
+          <li>Fusion 360</li>
+          <li>Slicer software (Ultimaker Cura, Prusaslicer, Superslicer)</li>
+          <li>Fluidd</li>
+          <li>Klipper</li>
+        </ul>
+        <p>3D printing is my first advanced STEM hobby. I got my first 3D printer(the CR10S4 in the picture) in 2019 and have been mofyfing it along with another printer I got during the pandemic. 3D printing has helped me learn about many facets of engineering - from firmware development to soldering to 3D design.</p>
+      </div>
+      <div id="Competitive Robotics" class="projectDescription">
+        <h3>Competitive Robotics</h3>
+        <div class="sketchfab-embed-wrapper"> <iframe title="FTC Skystone Prototype Model" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/a7c8a4648f674c3f89bd5d5affea2e80/embed"> </iframe> </div>
+        <div class="sketchfab-embed-wrapper"> <iframe title="Swerve Drive Pod" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/ae1a1a0dbaac413b8bacfa51b8db5f25/embed"> </iframe> </div>
+        <h4>Technologies & STEM Concepts Used:</h4>
+        <ul>
+          <li>Java</li>
+          <li>Android Studio</li>
+          <li>Fusion 360</li>
+          <li>3D Printing</li>
+        </ul>
+        <p>One of my favorite hobbies throughout high school has been competitive robotics. Participating in the First Tech Challenge has allowed me to learn about robotics and interact with many amazing people, while embracing Gracious Professionalism - embracing kindness.</p>
+      </div> 
+      <div class="contact-section" id="contact">
+        <h3>Don't hesitate to contact me!</h3>
+        <a href="https://www.linkedin.com/in/aaron-kantsevoy-408886229/" target="_blank" class="socialLink">
+          <ion-icon name="logo-linkedin" class="LinkedIn"></ion-icon>
+        </a>
+        <a href="https://github.com/aakan511" target="_blank" class="socialLink">
+          <ion-icon name="logo-github" class="GitHub"></ion-icon>
+        </a>
+        <a href="mailto:akantsevoy3@gatech.edu" target="_blank" rel="noopener noreferrer" class="socialLink">
+          <ion-icon name="send-outline" class="email"></ion-icon><p class="eText">akantsevoy3@gatech.edu</p>
+        </a>
+      </div>
+      <div class="hobbyDescription" id="languages">
+        <h3>My (human) languages</h3>
+        <p>In addition to STEM, I also enjoy learning human languages because it gives me a different perspective, and enables me to collabarate with different people. I learned to speak, read, and write in both Ukrainian and Russian from my parents. I'm very thankful to them for teaching me these beautiful languages because I'm now able to read classical Slavik litterature as well as make a deep connection with my Slavik heritage. In middle school, I chose to learn Japanese because I thought it was the most challenging language I could take. While I still have a lot more to learn, I really enjoy learning Japanese because it has highly structured grammar, which is intuitive to me. In high school, I began learning Chinese. I chose Chinese because I realized that I would be able to learn from more than a billion people I wouldn't have been able to learn from otherwise.</p>
+        <h4>TLDR:</h4>
+        <ul>
+          <li>I'm fluent in English, Russian, and Ukrainian</li>
+          <li>I'm learning Japanese and Chinese</li>
+        </ul>
+      </div>
+
+    </main>
+    
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
